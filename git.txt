@@ -1,0 +1,17 @@
+Git Cheatsheet
+
+git remote add origin [url]
+	create with origin at url
+git pull
+	pull any changes
+git status
+	show tracked, edited/removed/added files
+git commit -m "[message]"
+	add commit message
+git push
+	save commited changes
+
+git update-index --assume-unchanged [path]
+	removes file at path from tracked files
+git update-index --no-assume-unchanged [path]
+	adds file at path to tracked files

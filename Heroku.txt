@@ -1,0 +1,27 @@
+Heroku Cheat Sheet
+------------------
+
+General:
+heroku login
+	Logs in, lincolnanders5@gmail.com
+heroku create
+	creates heroku app for code
+heroku open
+	opens running app in browser
+
+
+Changing source:
+heroku git:remote -a [appName]
+	associate app with git code
+git push heroku master
+	commit changes to code for heroku
+git clone [url]
+	clones git repo, becomes source data
+
+Server Maintenance:
+heroku ps:scale web=[numServers]
+	scales how many servers are running app
+heroku ps
+	shows how many servers are running app
+heroku logs --tail
+	starts logging traffic etc.
